@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/collecion-pruebas",
+      "handler": "collecion-prueba.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/collecion-pruebas/count",
+      "handler": "collecion-prueba.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/collecion-pruebas/:id",
+      "handler": "collecion-prueba.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/collecion-pruebas",
+      "handler": "collecion-prueba.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/collecion-pruebas/:id",
+      "handler": "collecion-prueba.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/collecion-pruebas/:id",
+      "handler": "collecion-prueba.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "provider": "cloudinary",
+    "providerOptions":{
+        "cloud_name": "novofaciem",
+        "api_key": "716662429254933",
+        "api_secret":"yw69hZMXkrgsfkBVlpfEjjffPRU"
+    }
+
+}
