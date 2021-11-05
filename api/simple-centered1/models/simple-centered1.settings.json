@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "simple_centered1s",
+  "info": {
+    "name": "SimpleCentered1"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "text1": {
+      "type": "text"
+    },
+    "text2": {
+      "type": "text"
+    },
+    "Nivel": {
+      "type": "string"
+    }
+  }
+}
