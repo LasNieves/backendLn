@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/banner-bienvenidas",
+      "handler": "banner-bienvenida.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/banner-bienvenidas/count",
+      "handler": "banner-bienvenida.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/banner-bienvenidas/:id",
+      "handler": "banner-bienvenida.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/banner-bienvenidas",
+      "handler": "banner-bienvenida.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/banner-bienvenidas/:id",
+      "handler": "banner-bienvenida.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/banner-bienvenidas/:id",
+      "handler": "banner-bienvenida.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

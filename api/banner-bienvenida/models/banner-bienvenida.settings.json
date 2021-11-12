@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_bienvenidas",
+  "info": {
+    "name": "BannerBienvenida",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Pagina": {
+      "type": "string"
+    },
+    "Titulo": {
+      "type": "string"
+    },
+    "Texto1": {
+      "type": "text"
+    },
+    "Texto2": {
+      "type": "text"
+    }
+  }
+}
