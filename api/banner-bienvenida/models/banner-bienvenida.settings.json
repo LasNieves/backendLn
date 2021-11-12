@@ -12,16 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Pagina": {
+    "pagina": {
       "type": "string"
     },
-    "Titulo": {
+    "titulo": {
       "type": "string"
     },
-    "Texto1": {
+    "texto1": {
       "type": "text"
     },
-    "Texto2": {
+    "texto2": {
       "type": "text"
     }
   }
