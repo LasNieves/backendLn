@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/collecion-pruebas",
-      "handler": "collecion-prueba.find",
+      "path": "/banner-introduccions",
+      "handler": "banner-introduccion.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/collecion-pruebas/count",
-      "handler": "collecion-prueba.count",
+      "path": "/banner-introduccions/count",
+      "handler": "banner-introduccion.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/collecion-pruebas/:id",
-      "handler": "collecion-prueba.findOne",
+      "path": "/banner-introduccions/:id",
+      "handler": "banner-introduccion.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/collecion-pruebas",
-      "handler": "collecion-prueba.create",
+      "path": "/banner-introduccions",
+      "handler": "banner-introduccion.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/collecion-pruebas/:id",
-      "handler": "collecion-prueba.update",
+      "path": "/banner-introduccions/:id",
+      "handler": "banner-introduccion.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/collecion-pruebas/:id",
-      "handler": "collecion-prueba.delete",
+      "path": "/banner-introduccions/:id",
+      "handler": "banner-introduccion.delete",
       "config": {
         "policies": []
       }

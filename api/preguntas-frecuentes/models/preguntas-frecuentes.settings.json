@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "simple_centered1s",
+  "collectionName": "preguntas_frecuentes",
   "info": {
-    "name": "SimpleCentered1"
+    "name": "PreguntasFrecuentes"
   },
   "options": {
     "increments": true,
@@ -11,17 +11,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "pagina": {
       "type": "string"
     },
-    "text1": {
+    "pregunta": {
       "type": "text"
     },
-    "text2": {
+    "respuesta": {
       "type": "text"
-    },
-    "Nivel": {
-      "type": "string"
     }
   }
 }

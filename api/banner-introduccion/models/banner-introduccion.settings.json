@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "collecion_pruebas",
+  "collectionName": "banner_introduccions",
   "info": {
-    "name": "CollecionPrueba"
+    "name": "BannerIntroduccion",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,13 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "pagina": {
       "type": "string"
     },
-    "Subtitle": {
-      "type": "string"
-    },
-    "Img": {
+    "imagen": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -28,6 +26,21 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "textoEnlace": {
+      "type": "string"
+    },
+    "enlace": {
+      "type": "string"
     }
   }
 }

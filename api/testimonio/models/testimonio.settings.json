@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonios",
+  "info": {
+    "name": "Testimonio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pagina": {
+      "type": "string"
+    },
+    "frase": {
+      "type": "text"
+    },
+    "nombre": {
+      "type": "text"
+    },
+    "titulo": {
+      "type": "text"
+    },
+    "parrafo1": {
+      "type": "text"
+    },
+    "parrafo2": {
+      "type": "text"
+    },
+    "parrafo3": {
+      "type": "text"
+    },
+    "informacionEnlace": {
+      "type": "string"
+    }
+  }
+}
