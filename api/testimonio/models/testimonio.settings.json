@@ -33,9 +33,6 @@
     "parrafo3": {
       "type": "text"
     },
-    "informacionEnlace": {
-      "type": "string"
-    },
     "imagen": {
       "collection": "file",
       "via": "related",
